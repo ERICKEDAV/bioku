@@ -1,5 +1,5 @@
 <?php
-$url = 'https://raw.githubusercontent.com/ERICKEDAV/bioku/main/news.txt';
+$url = 'https://raw.githubusercontent.com/ERICKEDAV/bioku/main/bio.txt';
 $ch = curl_init($url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
